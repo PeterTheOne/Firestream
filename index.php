@@ -22,12 +22,13 @@ if (strpos($_SERVER['HTTP_HOST'], '.com')) {
     </head>
     <body>
         <div class="container">
-            <header>
-                <h1>Firestream</h1>
-                <span>The place where <a href="http://petergrassberger.com">Peter Grassberger</a> lives, works and studies.</span>
-            </header>
-
             <article>
+                <h1>Firestream</h1>
+                Is the place where I (<a href="http://petergrassberger.com">Peter Grassberger</a>) live, work and study. I call
+                it Firestream after the german street name Feuerbachgasse, you can read more about the street in
+                <a href="http://www.annenpost.at/2013/05/09/gratzlkunde-die-feuerbachgasse/" hreflang="de">Annenpost: Gratzlkunde die Feuerbachgasse</a>.
+                You can also find it on <a href="https://foursquare.com/v/firestream/5433ff51498e9f625c7425ea">Foursquare</a>.
+
                 <h2>Address</h2>
                 <address>
                     Peter Grassberger, BSc<br>
@@ -38,17 +39,14 @@ if (strpos($_SERVER['HTTP_HOST'], '.com')) {
                 <h2>Map</h2>
                 <iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/petertheone.jn258n5b/attribution,zoompan.html?access_token=pk.eyJ1IjoicGV0ZXJ0aGVvbmUiLCJhIjoiLTZjMGpZWSJ9.8HdkX0H4G8UOLWvnuTnVag'></iframe>
 
-                <h2>Foursquare</h2>
-                Also on <a href="https://foursquare.com/v/firestream/5433ff51498e9f625c7425ea">Foursquare</a>.
-
-                <h2>Tweet from #Graz, #Annenstraße or @PeterTheOne</h2>
+                <h2>Tweet about #Graz, #Annenstraße or @PeterTheOne</h2>
                 <a class="twitter-timeline" href="https://twitter.com/search?q=%23graz+OR+%23annenstra%C3%9Fe+OR+%40PeterTheOne" data-widget-id="519533122954596352">Tweets about "#graz OR #annenstraße OR @PeterTheOne"</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </article>
 
             <footer>
                 <h2>Footer</h2>
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> Peter Grassberger, <a href="http://petergrassberger.com/contact">imprint.</a>
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> Peter Grassberger. <a href="http://petergrassberger.com/contact">imprint.</a>
             </footer>
 
             <!-- Piwik -->

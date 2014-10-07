@@ -6,6 +6,15 @@
     font-style: normal;
 }
 
+a, a:active, a:visited {
+    color: #0077b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body,
 input,
 select,
@@ -26,4 +35,14 @@ textarea {
 #map {
     width: 100%;
     height: 300px;
+}
+
+html[lang="en"] :link[hreflang]:not([hreflang="en"])::after {
+    content: " "attr(hreflang);
+    font-size: xx-small;
+}
+
+html[lang="de"] :link[hreflang]:not([hreflang="de"])::after {
+    content: " "attr(hreflang);
+    font-size: xx-small;
 }
